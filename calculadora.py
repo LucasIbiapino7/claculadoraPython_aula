@@ -41,3 +41,7 @@ elif escolha == 4:
 
     print(div(n1, n2))
 
+else:
+    
+    print("valor inválido")
+
