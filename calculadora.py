@@ -15,6 +15,10 @@ def multi(num1, num2):
     return num1 * num2
 
 
+def div(num1, num2):
+    return num1 / num2
+
+
 n1 = int(input("digite o primeiro número: "))
 n2 = int(input("digite o segundo numero: "))
 
@@ -32,3 +36,7 @@ elif escolha == 2:
 elif escolha == 3:
 
     print(multi(n1, n2))
+
+elif escolha == 4:
+
+    print(div(n1, n2))
